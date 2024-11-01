@@ -1,0 +1,231 @@
+div.tutor_pricing_form {
+  all: default;
+}
+.tutor_pricing_form { 
+	border-radius: 7px;
+	background-color: #F3F2F1;
+	box-sizing: border-box;
+	border: 1px solid #DDD;
+	padding: 1em 1em 0 1em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+.tutor_pricing_form #tpw_description {
+	margin-top:-0.75em;
+	margin-bottom: 0.75em;
+}
+.tutor_pricing_form form input[type="text"],.tutor_pricing_form form select {
+	height: 1.75em;
+	width: 90%;
+	border-radius: 4px;
+	display: inline-block;
+	text-align: center;
+	margin: 2px 0;
+}
+.tutor_pricing_form .call_to_action {
+	margin: 10px 0 24px 0;
+	width: 90%;
+	color: #fff !important;
+	background-color: purple;
+	height: 35px;
+	font: 14px/35px Oswald, Arial, sans-serif;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 0 15px;
+	position: relative;
+	/*background: url(https://www.theknowledgeroundtable.com/wp-content/themes/intuition/images/action_button.png) repeat-x top;*/
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, .2);
+	white-space: nowrap;
+
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+
+	box-shadow: 0px 1px 2px rgba(0, 0, 0,  .2);
+	-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
+
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+	-ms-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
+}
+.tutor_pricing_form .call_to_action:hover {
+	color: #fff;
+	opacity: .8;
+}
+.tutor_pricing_form form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+.tutor_pricing_form form select::-ms-expand {
+    display: none;
+}
+.tutor_pricing_form form input[type="text"]::-webkit-input-placeholder {
+    color: black;
+    opacity: 1 !important; /* for chrome */
+}
+.tutor_pricing_form form input[type="text"]:-moz-placeholder { /* Firefox 18- */
+    color: black;
+    opacity: 1 !important; /* for chrome */
+}
+.tutor_pricing_form form input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
+    color: black;
+    opacity: 1 !important; /* for chrome */
+}
+.tutor_pricing_form form input[type="text"]:-ms-input-placeholder {  
+    color: black;
+    opacity: 1 !important; /* for chrome */
+}
+.tutor_pricing_form .tpw_knowro_signature {
+	margin-top: 1em;
+}
+.tutor_pricing_form .tpw_form_details {
+	display: none;
+}
+.tutor_pricing_form .tpw_form_details_toggle {
+	cursor: pointer;
+}
+.tutor_pricing_form .tpw_form_details_toggle_off {
+	display: none;
+	cursor: pointer;
+}
+.tutor_pricing_form .tpw_knowro_signature {
+	margin-top: -1em;
+	margin-bottom: 1em;
+}
+.tutor_pricing_form .tpw_knowro_signature img {
+	margin-bottom: -5px;
+}
+.tutor_pricing_form .tpw_expectation {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+.tutor_pricing_form .tpw_range_container {
+	
+}
+.tutor_pricing_form .tpw_ci_lower {
+	float: left;
+	width: 30%;
+	text-align: left;
+}
+.tutor_pricing_form .tpw_typical {
+	float: left;
+	width: 40%;
+	text-align: center;
+}
+.tutor_pricing_form .tpw_ci_upper {
+	float: left;
+	width: 30%;
+	text-align: right;
+}
+.tutor_pricing_form .tpw_pricing_range {
+	width: 100%;
+}
+.tutor_pricing_form .tpw_result_container {
+	background-color: white;
+	padding: 5%;
+	border-radius: 4px;
+	border: 1px dotted #CCCCCC;
+	margin-bottom: 1em;
+	width: 90%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tutor_pricing_form td {
+	margin:0;
+	padding:0;
+	border: none;
+	text-align:left;
+}
+.tutor_pricing_form tr {
+	margin:0;
+	padding:0;	
+	border: none;
+	text-align:left;
+}
+.tutor_pricing_form table {
+	border: none;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	text-align:left;
+	line-height: 20px;
+	margin:0;
+	padding:0;
+	font-size: 100%;
+	color: inherit;
+}
+.tutor_pricing_form p {
+	margin:0;
+	padding:0;	
+	font-family: "Quattrocento",Tahoma,sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #878787;
+}
+.tutor_pricing_form a {
+	color: #6E969D;
+	outline: none;
+	text-decoration: none;
+}
+body .tutor_pricing_form {
+	font-family: "Quattrocento",Tahoma,sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #878787;
+	text-rendering:none;
+}
+.tutor_pricing_form h1, .tutor_pricing_form h2, .tutor_pricing_form h3, .tutor_pricing_form h4, .tutor_pricing_form h5, .tutor_pricing_form h6 {
+   font-family: "Georgia",Arial,sans-serif;
+   font-weight: normal;
+	color: #404142;
+	padding-bottom: 10px;
+}
+.tutor_pricing_form h3 {
+	font-size: 20px;
+}
+.tutor_pricing_form h2 {
+	font-size: 20px;
+}
+.tutor_pricing_form .tutorsearchsubmit {
+	color: black;
+}
+.tutor_pricing_form select {
+	font-family: "Microsoft Sans Serif";
+	font-size: 13px;
+	color: black;
+	border:none;
+	margin:0;
+	padding: 0;
+}
+/*
+.tutor_pricing_form input[type="submit"] {
+	margin:0;
+	padding: 0;
+	text-transform: none;
+	vertical-align: middle;
+	border: none;
+	background: none;
+}
+*/
+.tutor_pricing_form input[type="text"] {
+	margin:0;
+	padding: 0;
+	text-transform: none;
+	vertical-align: baseline;
+	font-family: "Microsoft Sans Serif";
+	font-size: 13px;
+	color: black;
+	border: none;
+}
+.tutor_pricing_form img {
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+}
